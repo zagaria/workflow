@@ -11,6 +11,10 @@
 #
 name: "CodeQL"
 
+strategy:
+  matrix:
+    language: ['javascript']
+
 on:
   push:
     branches: [ "main" ]
